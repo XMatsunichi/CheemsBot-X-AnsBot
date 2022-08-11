@@ -40,7 +40,7 @@ global.autoTyping = false //auto tying in gc (true to on, false to off)
 global.autoreadpmngc = false //auto reading in gc and pm (true to on, false to off)
 global.autoReadGc = false //auto reading in gc (true to on, false to off)
 global.autoRecord = false //auto recording (true to on, false to off)
-global.available = true //auto available (true to on, false to off)
+global.available = false //auto available (true to on, false to off)
 
 //semt menu variants
 global.vidmenu = fs.readFileSync("./XeonMedia/theme/Cheems-bot.mp4") //gif and video menu
@@ -69,14 +69,14 @@ global.websitex = "https://www.instagram.com/anshorfalahi/" //ur website to be d
 global.botscript = 'https://github.com/DGXeon/CheemsBot-MD4' //script link
 global.reactmoji = "✔️" //ur menu react emoji
 global.themeemoji = "🌚" //ur theme emoji
-global.packname = "\n💤Author: AnshorXD\n💤Bot Number: 6289691676082\n💤Bot Name: AnsBot🌚\n💤Instagram: @anshorfalahi\n" //ur sticker watermark packname
+global.packname = "\n💤Bot Name: AnsBot🌚\n💤Bot Number: 6289691676082\n" //ur sticker watermark packname
 global.author = "" //ur sticker watermark author
 
 //Bot theme media
-global.thum = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
-global.log0 = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur logo pic
-global.err4r = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur error pic
-global.thumb = fs.readFileSync("./XeonMedia/theme/cheemspic.jpg") //ur thumb pic
+global.thum = fs.readFileSync("./XeonMedia/theme/ans.png") //ur thumb pic
+global.log0 = fs.readFileSync("./XeonMedia/theme/ans.png") //ur logo pic
+global.err4r = fs.readFileSync("./XeonMedia/theme/ans.png") //ur error pic
+global.thumb = fs.readFileSync("./XeonMedia/theme/ans.png") //ur thumb pic
 
 //damtabase
 global.premium = ['6285348242252'] //ur premium numbers
@@ -133,7 +133,7 @@ global.mess = {
    umpanawal: 5,
    potionawal: 1
 }
-global.thumb = fs.readFileSync('./XeonMedia/theme/cheemspic.jpg')
+global.thumb = fs.readFileSync('./XeonMedia/theme/ans.png')
 global.flaming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.fluming = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=fluffy-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.flarun = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=runner-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
