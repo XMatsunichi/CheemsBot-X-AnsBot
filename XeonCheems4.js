@@ -515,14 +515,7 @@ const reply = (teks) => {
             timezone: "Asia/Makassar"
         })
         
-        //hitter
-        global.hit = {}
-if (isCmd) {
-data = await fetchJson('https://api.countapi.xyz/hit/AnsBot/visits')
-jumlahcmd = `${data.value}`
-dataa = await fetchJson(`https://api.countapi.xyz/hit/AnsBot${moment.tz('Asia/Makassar').format('DDMMYYYY')}/visits`)
-jumlahharian = `${dataa.value}`
-}
+        
         
 	//auto set bio\\
 	if (db.data.settings[botNumber].autobio) {
@@ -1121,9 +1114,6 @@ const latensie = speed() - timestampe
 │𝗢𝘄𝗻𝗲𝗿 𝗡𝗼. : ${global.owner}
 │𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
 │𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
-│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 : ${jumlahcmd}
-│𝗧𝗼𝘁𝗮𝗹 𝗛𝗶𝘁 𝗧𝗼𝗱𝗮𝘆 : ${jumlahharian}
 └┬────────────┈ ⳹
    │✑  Please Select
    │✑  The Button Below
